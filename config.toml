@@ -8,6 +8,7 @@ defaultContentLanguage = "es"
     style = "green"
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
+    about_us = "<p>Los mejores tratamientos de estética dental con la mayor confianza</p>"
     address = """<p><strong>Clínica Salud Dental</strong>
         <br>Av. España, 24
         <br>El Astillero
