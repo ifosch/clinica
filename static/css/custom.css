@@ -1,0 +1,28 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+@media (min-width: 990px) {
+    header,
+    .navbar-affixed-top,
+    #navbar,
+    .navbar-header {
+	height: 112px;
+    }
+}
+
+@media (max-width: 990px) {
+    header,
+    .navbar-affixed-top,
+    #navbar,
+    .navbar-header {
+	height: 65px;
+    }
+}

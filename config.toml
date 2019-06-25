@@ -1,4 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Clínica Salud Dental"
 theme = "universal"
+
+[params]
+    style = "green"
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
