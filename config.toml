@@ -2,8 +2,19 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Clínica Salud Dental"
 theme = "universal"
+defaultContentLanguage = "es"
 
 [params]
     style = "green"
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
+    address = """<p><strong>Clínica Salud Dental</strong>
+        <br>Av. España, 24
+        <br>El Astillero
+        <br>39610 Cantabria
+        <br>
+        <strong>España</strong>
+      </p>
+      """
+    latitude = "43.400742"
+    longitude = "-3.823028"
