@@ -50,7 +50,11 @@
 
             {{ .Site.Params.address | markdownify }}
 
-          <br/><a href="http://google.com/maps?q={{ .Site.Params.latitude }},{{ .Site.Params.longitude }}" class="maps">{{ i18n "contactGoTo" }}</a>
+	    {{ if isset .Site.Params "maps" }}
+            <br/><a href="{{ .Site.Params.maps }}" class="maps">{{ i18n "contactGoTo" }}</a>
+	    {{ else }}
+            <br/><a href="http://google.com/maps?q={{ .Site.Params.latitude }},{{ .Site.Params.longitude }}" class="maps">{{ i18n "contactGoTo" }}</a>
+	  {{ end }}
 
             <hr class="hidden-md hidden-lg hidden-sm">
 

@@ -17,8 +17,7 @@ defaultContentLanguage = "es"
         <strong>España</strong>
       </p>
       """
-    latitude = "43.400742"
-    longitude = "-3.823028"
+    maps = "https://g.page/salmones-unidad-dental"
 
 [params.carousel]
     enable = true
